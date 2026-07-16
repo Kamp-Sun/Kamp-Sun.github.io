@@ -41,7 +41,12 @@
                             {{ site.data.profile.short_bio }}
                         </div>
                         {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
+                            {%- if site.data.profile.cv_link == "#" or site.data.profile.cv_link contains '://' -%}
+                            {%- assign cv_url = site.data.profile.cv_link -%}
+                            {%- else -%}
+                            {%- assign cv_url = site.data.profile.cv_link | relative_url -%}
+                            {%- endif -%}
+                            <a target="_blank" href="{{ cv_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
                         {% endif %}
                     </div>
         
@@ -65,7 +70,12 @@
                         {% endif %}
                         
                         {% if site.data.profile.github %}
-                        <a class="pr-3 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
+                        {%- if site.data.profile.github == "#" or site.data.profile.github contains 'github.com' -%}
+                        {%- assign github_url = site.data.profile.github -%}
+                        {%- else -%}
+                        {%- assign github_url = 'https://github.com/' | append: site.data.profile.github -%}
+                        {%- endif -%}
+                        <a class="pr-3 no-break" target="_blank" href="{{ github_url }}">
                             <i class="fab fa-github"></i> GitHub
                         </a>
                         {% endif %}
@@ -75,21 +85,41 @@
                             <i class="fab fa-weixin"></i> WeChat
                         </a>
                         {% endif %}
+                        {% if site.data.profile.wechat %}
+                        <a class="pr-3 no-break" target="_blank" href="{{ site.data.profile.wechat }}">
+                            <i class="fab fa-weixin"></i> WeChat
+                        </a>
+                        {% endif %}
 
                         {% if site.data.profile.twitter %}
-                        <a class="pr-3 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
+                        {%- if site.data.profile.twitter == "#" or site.data.profile.twitter contains 'twitter.com' or site.data.profile.twitter contains 'x.com' -%}
+                        {%- assign twitter_url = site.data.profile.twitter -%}
+                        {%- else -%}
+                        {%- assign twitter_url = 'https://x.com/' | append: site.data.profile.twitter -%}
+                        {%- endif -%}
+                        <a class="pr-3 no-break" target="_blank" href="{{ twitter_url }}">
                             <i class="fab fa-twitter"></i> Twitter
                         </a>
                         {% endif %}
 
                         {% if site.data.profile.linkedin %}
-                        <a class="pr-3 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
+                        {%- if site.data.profile.linkedin == "#" or site.data.profile.linkedin contains 'linkedin.com' -%}
+                        {%- assign linkedin_url = site.data.profile.linkedin -%}
+                        {%- else -%}
+                        {%- assign linkedin_url = 'https://www.linkedin.com/in/' | append: site.data.profile.linkedin -%}
+                        {%- endif -%}
+                        <a class="pr-3 no-break" target="_blank" href="{{ linkedin_url }}">
                             <i class="fab fa-linkedin"></i> LinkedIn
                         </a>
                         {% endif %}
 
                         {% if site.data.profile.orcid %}
-                        <a class="pr-3 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
+                        {%- if site.data.profile.orcid == "#" or site.data.profile.orcid contains 'orcid.org' -%}
+                        {%- assign orcid_url = site.data.profile.orcid -%}
+                        {%- else -%}
+                        {%- assign orcid_url = 'https://orcid.org/' | append: site.data.profile.orcid -%}
+                        {%- endif -%}
+                        <a class="pr-3 no-break" target="_blank" href="{{ orcid_url }}">
                             <i class="fab fa-orcid"></i> ORCID
                         </a>
                         {% endif %}

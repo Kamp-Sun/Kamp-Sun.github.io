@@ -14,7 +14,12 @@
                             {{ site.data.profile.short_bio }}
                         </div>
                         {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
+                            {%- if site.data.profile.cv_link == "#" or site.data.profile.cv_link contains '://' -%}
+                            {%- assign cv_url = site.data.profile.cv_link -%}
+                            {%- else -%}
+                            {%- assign cv_url = site.data.profile.cv_link | relative_url -%}
+                            {%- endif -%}
+                            <a target="_blank" href="{{ cv_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
                         {% endif %}
                     </div>
         
