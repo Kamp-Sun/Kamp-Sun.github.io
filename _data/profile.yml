@@ -1,5 +1,5 @@
 primary_name: "Qianpu Sun"
-secondary_name: "孙乾普"
+secondary_name: "Kamp Sun"
 navbar_name: "Qianpu Sun"
 
 positions:
@@ -41,6 +41,11 @@ education:
 #   logo: /assets/images/badges/PKU_red.png
 #   position: Research Intern
 #   date: Sep. 2019 - Jul. 2021
+
+internships:
+- name: Internship
+  position: Details to be added
+  date: ""
 
 awards:
 # - name: Award name
