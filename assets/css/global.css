@@ -91,3 +91,15 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
+
+.profile-social-icons {
+    font-size: 1.05rem;
+    line-height: 1.2;
+    white-space: nowrap;
+}
+
+.profile-social-icons a {
+    display: inline-block;
+    padding-left: 0.18rem !important;
+    padding-right: 0.18rem !important;
+}
