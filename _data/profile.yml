@@ -65,6 +65,11 @@ internships:
   position: Algorithm Intern
   date: Mar. 2023 - Sep. 2023
 
+projects:
+- name: XtalPi
+  position: Laboratory Automation with VLA Models
+  date: Dec. 2025 - present
+
 awards:
 # - name: Award name
 #   date: Year

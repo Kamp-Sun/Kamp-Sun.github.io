@@ -6,6 +6,7 @@ pub: "arXiv"
 pub_date: "2026"
 abstract: >-
   A multimodal benchmark for evaluating safety-critical reasoning and planning of AI agents in scientific laboratory environments.
+cover: /assets/images/covers/labshield.jpg
 authors:
   - Qianpu Sun
   - Xiaowei Chi

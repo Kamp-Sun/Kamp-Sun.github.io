@@ -6,6 +6,7 @@ pub: "IEEE International Conference on Robotics and Automation (ICRA)"
 pub_date: "2026"
 abstract: >-
   Weakly supervised 3D Gaussian Splatting for deduplicated occupancy prediction in embodied and autonomous driving scenes.
+cover: /assets/images/covers/gsrender.jpg
 authors:
   - Qianpu Sun
   - Changyong Shu
