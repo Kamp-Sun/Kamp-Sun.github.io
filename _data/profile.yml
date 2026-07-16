@@ -53,16 +53,16 @@ education:
 
 internships:
 - name: Beijing Academy of Artificial Intelligence
-  position: Algorithm Intern
+  position: Embodied AI Algorithm Intern
   date: Apr. 2025 - Nov. 2025
 - name: DeepRoute.ai
-  position: Algorithm Intern
+  position: Autonomous Driving Algorithm Intern
   date: Dec. 2024 - Apr. 2025
 - name: Houmo AI
-  position: Algorithm Intern
+  position: Autonomous Driving Algorithm Intern
   date: Jun. 2024 - Dec. 2024
-- name: AIR, Tsinghua University / DiDi
-  position: Algorithm Intern
+- name: AIR
+  position: Autonomous Driving Algorithm Intern
   date: Mar. 2023 - Sep. 2023
 
 projects:
