@@ -25,7 +25,7 @@ short_bio: >-
     I am an incoming Ph.D. student in the Individualized Interdisciplinary Program at the Hong Kong University of Science and Technology, advised by <a href="https://siruihan.com/" target="_blank">Dr. Sirui Han</a> and <a href="https://anyirao.com/" target="_blank">Dr. Anyi Rao</a>. My research interests include embodied AI, autonomous driving, multimodal large language models, and 3D perception.
   </p>
   <p>
-    Previously, I received my master's degree in Computer Technology from Tsinghua University, where I worked with <a href="https://pi.cs.tsinghua.edu.cn/lab/people/ChunYu/" target="_blank">Prof. Chun Yu</a> on occupancy perception for autonomous driving and multimodal models for embodied intelligence.
+    Previously, I received my master's degree in Computer Technology from Tsinghua University, where I worked with <a href="https://scholar.google.com/citations?user=fYdxi2sAAAAJ&hl=en" target="_blank">Prof. Yuan Chun</a> on occupancy perception for autonomous driving and multimodal models for embodied intelligence.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -61,7 +61,7 @@ internships:
 - name: Houmo AI
   position: Algorithm Intern
   date: Jun. 2024 - Dec. 2024
-- name: Institute for AI Industry Research, Tsinghua University / DiDi
+- name: AIR, Tsinghua University / DiDi
   position: Algorithm Intern
   date: Mar. 2023 - Sep. 2023
 

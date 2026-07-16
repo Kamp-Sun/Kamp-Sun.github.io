@@ -6,6 +6,7 @@ pub: "arXiv"
 pub_date: "2025"
 abstract: >-
   Repurposing video diffusion priors for temporally consistent transparent object depth and normal estimation.
+cover: /assets/images/covers/diffusion-transparency.jpg
 authors:
   - Shaocong Xu
   - Songlin Wei

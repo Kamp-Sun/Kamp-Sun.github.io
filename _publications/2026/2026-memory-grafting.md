@@ -6,6 +6,7 @@ pub: "arXiv"
 pub_date: "2026"
 abstract: >-
   A language model pre-training method that augments scaling with offline conditional memory.
+cover: /assets/images/covers/memory-grafting.jpg
 authors:
   - Runxi Cheng
   - Yuchen Guan

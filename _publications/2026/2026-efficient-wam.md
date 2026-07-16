@@ -6,6 +6,7 @@ pub: "arXiv"
 pub_date: "2026"
 abstract: >-
   A compact world-action model for efficient future imagination and action-conditioned scene understanding.
+cover: /assets/images/covers/efficient-wam.jpg
 authors:
   - Jiajun Li
   - Tiecheng Guo
