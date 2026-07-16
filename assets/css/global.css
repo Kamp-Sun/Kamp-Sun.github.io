@@ -64,6 +64,14 @@ h1, h2, h3, h4, h5, h6,
     max-height: 120px;
 }
 
+.publication-cover {
+    width: 100%;
+    aspect-ratio: 10 / 7;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}
+
 .abstract-body {
     min-height: 100px;
 }
