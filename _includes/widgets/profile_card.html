@@ -86,17 +86,6 @@
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.wechat_qrcode %}
-                        <a class="pr-3 no-break" data-toggle="modal" data-target="#modal-wechat">
-                            <i class="fab fa-weixin"></i> WeChat
-                        </a>
-                        {% endif %}
-                        {% if site.data.profile.wechat %}
-                        <a class="pr-3 no-break" target="_blank" href="{{ site.data.profile.wechat }}">
-                            <i class="fab fa-weixin"></i> WeChat
-                        </a>
-                        {% endif %}
-
                         {% if site.data.profile.twitter %}
                         {%- if site.data.profile.twitter == "#" or site.data.profile.twitter contains 'twitter.com' or site.data.profile.twitter contains 'x.com' -%}
                         {%- assign twitter_url = site.data.profile.twitter -%}
@@ -127,6 +116,17 @@
                         {%- endif -%}
                         <a class="pr-3 no-break" target="_blank" href="{{ orcid_url }}">
                             <i class="fab fa-orcid"></i> ORCID
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.profile.wechat_qrcode %}
+                        <a class="pr-3 no-break" data-toggle="modal" data-target="#modal-wechat">
+                            <i class="fab fa-weixin"></i> WeChat
+                        </a>
+                        {% endif %}
+                        {% if site.data.profile.wechat %}
+                        <a class="pr-3 no-break" target="_blank" href="{{ site.data.profile.wechat }}">
+                            <i class="fab fa-weixin"></i> WeChat
                         </a>
                         {% endif %}
                     </div>

@@ -22,10 +22,10 @@ orcid: "https://orcid.org/0009-0003-8159-9173"
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I work on embodied AI, robotics, autonomous driving, and 3D perception. My research focuses on building reliable perception and reasoning systems for real-world embodied agents, including occupancy prediction, LiDAR anomaly detection, world models, and multimodal safety-critical reasoning.
+    I am an incoming Ph.D. student in the Individualized Interdisciplinary Program at the Hong Kong University of Science and Technology, advised by Dr. Sirui Han and Dr. Anyi Rao. My research interests include embodied AI, autonomous driving, multimodal large language models, and 3D perception.
   </p>
   <p>
-    Recent projects include weakly supervised 3D Gaussian Splatting for occupancy prediction, synthetic-data-driven LiDAR outlier detection, efficient 4D world-action models, and laboratory safety benchmarks for multimodal agents.
+    Previously, I received my master's degree in Computer Technology from Tsinghua University, where I worked with Prof. Chun Yuan on occupancy perception for autonomous driving and multimodal models for embodied intelligence.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -33,9 +33,17 @@ portrait_caption: >-
   Qianpu Sun
 
 education:
-# - name: University / Institute
-#   position: Degree or position
-#   date: Year - Year
+- name: The Hong Kong University of Science and Technology
+  position: >-
+    Individualized Interdisciplinary Program <br/>
+    Ph.D. Student
+  date: 2026 - present
+- name: Tsinghua University
+  position: M.S. in Computer Technology
+  date: Sep. 2023 - Jun. 2026
+- name: Tianjin University of Science and Technology
+  position: B.S. in Computer Technology
+  date: Sep. 2018 - Jun. 2022
 
 # experience:
 # - name: Peking University
@@ -44,9 +52,18 @@ education:
 #   date: Sep. 2019 - Jul. 2021
 
 internships:
-- name: Internship
-  position: Details to be added
-  date: ""
+- name: Beijing Academy of Artificial Intelligence
+  position: Algorithm Intern
+  date: Apr. 2025 - Nov. 2025
+- name: DeepRoute.ai
+  position: Algorithm Intern
+  date: Dec. 2024 - Apr. 2025
+- name: Houmo AI
+  position: Algorithm Intern
+  date: Jun. 2024 - Dec. 2024
+- name: Institute for AI Industry Research, Tsinghua University / DiDi
+  position: Algorithm Intern
+  date: Mar. 2023 - Sep. 2023
 
 awards:
 # - name: Award name

@@ -62,17 +62,6 @@
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.cv_link %}
-                        {%- if site.data.profile.cv_link == "#" or site.data.profile.cv_link contains '://' -%}
-                        {%- assign cv_url = site.data.profile.cv_link -%}
-                        {%- else -%}
-                        {%- assign cv_url = site.data.profile.cv_link | relative_url -%}
-                        {%- endif -%}
-                        <a class="px-1 no-break" target="_blank" href="{{ cv_url }}">
-                            <i class="fas fa-file-alt"></i>
-                        </a>
-                        {% endif %}
-                        
                         {% if site.data.profile.github %}
                         {%- if site.data.profile.github == "#" or site.data.profile.github contains 'github.com' -%}
                         {%- assign github_url = site.data.profile.github -%}
@@ -87,17 +76,6 @@
                         {% if site.data.profile.facebook %}
                         <a class="px-1 no-break" target="_blank" href="{{ site.data.profile.facebook }}">
                             <i class="fab fa-facebook"></i>
-                        </a>
-                        {% endif %}
-
-                        {% if site.data.profile.wechat_qrcode %}
-                        <a class="px-1 no-break" data-toggle="modal" data-target="#modal-wechat">
-                            <i class="fab fa-weixin"></i>
-                        </a>
-                        {% endif %}
-                        {% if site.data.profile.wechat %}
-                        <a class="px-1 no-break" target="_blank" href="{{ site.data.profile.wechat }}">
-                            <i class="fab fa-weixin"></i>
                         </a>
                         {% endif %}
 
@@ -131,6 +109,28 @@
                         {%- endif -%}
                         <a class="px-1 no-break" target="_blank" href="{{ orcid_url }}">
                             <i class="fab fa-orcid"></i>
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.profile.wechat_qrcode %}
+                        <a class="px-1 no-break" data-toggle="modal" data-target="#modal-wechat">
+                            <i class="fab fa-weixin"></i>
+                        </a>
+                        {% endif %}
+                        {% if site.data.profile.wechat %}
+                        <a class="px-1 no-break" target="_blank" href="{{ site.data.profile.wechat }}">
+                            <i class="fab fa-weixin"></i>
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.profile.cv_link %}
+                        {%- if site.data.profile.cv_link == "#" or site.data.profile.cv_link contains '://' -%}
+                        {%- assign cv_url = site.data.profile.cv_link -%}
+                        {%- else -%}
+                        {%- assign cv_url = site.data.profile.cv_link | relative_url -%}
+                        {%- endif -%}
+                        <a class="px-1 no-break" target="_blank" href="{{ cv_url }}">
+                            <i class="fas fa-file-alt"></i>
                         </a>
                         {% endif %}
                     </div>
