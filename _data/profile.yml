@@ -8,7 +8,7 @@ positions:
 
 
 email: "qianpusun@google.com"
-cv_link: "#"
+cv_link: /cv.pdf
 gscholar: cVjaTlMAAAAJ
 github: Kamp-Sun
 facebook: "https://www.facebook.com/profile.php?id=61591962509916"
@@ -17,7 +17,7 @@ wechat_qrcode: /assets/images/photos/wechat.jpg
 wechat_prompt: >-
   Please tell me your name and affiliation when adding my WeChat.
 linkedin: "https://www.linkedin.com/in/%E5%89%8D%E6%99%AE-%E5%AD%99-89bba52a0/?skipRedirect=true"
-orcid: "#"
+orcid: "https://orcid.org/0009-0003-8159-9173"
 
 short_bio_text_justify: false
 short_bio: >-
