@@ -103,3 +103,36 @@ div.lazy {
     padding-left: 0.18rem !important;
     padding-right: 0.18rem !important;
 }
+
+.profile-entry-body {
+    min-width: 0;
+}
+
+.profile-entry-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+}
+
+.profile-entry-head span {
+    font-weight: 700;
+    min-width: 0;
+}
+
+.profile-entry-head em {
+    margin-left: auto;
+    color: #6c757d;
+    font-size: 0.875rem;
+    white-space: nowrap;
+}
+
+@media (max-width: 575.98px) {
+    .profile-entry-head {
+        display: block;
+    }
+
+    .profile-entry-head em {
+        display: block;
+        margin-left: 0;
+    }
+}
