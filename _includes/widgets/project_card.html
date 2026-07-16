@@ -1,0 +1,62 @@
+{% assign projects = include.projects | default: site.data.profile.projects %}
+
+{% if projects %}
+<div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+    <h6 class="border-bottom border-gray p-3 mb-0">
+        {% if include.title %}{{ include.title }}{% else %}<i class="fas fa-diagram-project"></i> Projects{% endif %}
+        {% unless include.hide_view_all %}
+        <a href="{{ 'projects' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a>
+        {% endunless %}
+    </h6>
+    <div class="project-list">
+        {% for item in projects limit:include.limit %}
+        <div class="project-item{% unless forloop.last %} border-bottom border-gray{% endunless %}">
+            {% if item.cover %}
+            <div class="project-cover-col">
+                <img class="project-cover lazy" data-src="{{ item.cover | relative_url }}" alt="{{ item.name }}">
+            </div>
+            {% endif %}
+            <div class="project-text-col">
+                <div class="project-entry-head">
+                    <h6 class="mb-1">
+                        {% if item.url %}
+                        <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>
+                        {% else %}
+                        {{ item.name }}
+                        {% endif %}
+                    </h6>
+                    {% if item.date %}<em>{{ item.date }}</em>{% endif %}
+                </div>
+                {% if item.position %}
+                <div class="small text-muted mb-1">{{ item.position }}</div>
+                {% endif %}
+                {% if item.description %}
+                <div class="small mb-2">{{ item.description }}</div>
+                {% endif %}
+                {% if item.tags %}
+                <div class="project-tags mb-2">
+                    {% for tag in item.tags %}
+                    <span class="badge badge-light">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% if item.links %}
+                <div class="small project-links">
+                    {% for link in item.links %}
+                    <a class="mr-3" href="{{ link.url }}" target="_blank" rel="noopener">
+                        {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %} {{ link.name }}
+                    </a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% unless include.hide_footer %}
+    <h6 class="d-block p-3 mt-0 text-right">
+        <a href="{{ 'projects' | relative_url }}">All projects <i class="fas fa-angle-double-right"></i></a>
+    </h6>
+    {% endunless %}
+</div>
+{% endif %}
