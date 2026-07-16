@@ -3,7 +3,7 @@ secondary_name: "Kamp Sun"
 navbar_name: "Qianpu Sun"
 
 positions:
-- name: Embodied AI and Autonomous Driving
+- name: Embodied AI & Autonomous Driving
 - name: The Hong Kong University of Science and Technology (HKUST)
 
 
@@ -22,10 +22,10 @@ orcid: "https://orcid.org/0009-0003-8159-9173"
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am an incoming Ph.D. student in the Individualized Interdisciplinary Program at the Hong Kong University of Science and Technology, advised by Dr. Sirui Han and Dr. Anyi Rao. My research interests include embodied AI, autonomous driving, multimodal large language models, and 3D perception.
+    I am an incoming Ph.D. student in the Individualized Interdisciplinary Program at the Hong Kong University of Science and Technology, advised by <a href="https://siruihan.com/" target="_blank">Dr. Sirui Han</a> and <a href="https://anyirao.com/" target="_blank">Dr. Anyi Rao</a>. My research interests include embodied AI, autonomous driving, multimodal large language models, and 3D perception.
   </p>
   <p>
-    Previously, I received my master's degree in Computer Technology from Tsinghua University, where I worked with Prof. Chun Yuan on occupancy perception for autonomous driving and multimodal models for embodied intelligence.
+    Previously, I received my master's degree in Computer Technology from Tsinghua University, where I worked with <a href="https://pi.cs.tsinghua.edu.cn/lab/people/ChunYu/" target="_blank">Prof. Chun Yu</a> on occupancy perception for autonomous driving and multimodal models for embodied intelligence.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
