@@ -27,9 +27,9 @@ short_bio: >-
     Recent projects include weakly supervised 3D Gaussian Splatting for occupancy prediction, synthetic-data-driven LiDAR outlier detection, efficient 4D world-action models, and laboratory safety benchmarks for multimodal agents.
   </p>
 
-# portrait_url: /assets/images/photos/portrait.jpg
-# portrait_caption: >-
-#   Portrait.
+portrait_url: /assets/images/photos/portrait.jpg
+portrait_caption: >-
+  Qianpu Sun
 
 education:
 # - name: University / Institute
